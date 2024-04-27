@@ -1,0 +1,226 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Widget 1",
+      "price": 10.99,
+      "description": "A wonderful widget for all your needs",
+      "quantity": 100,
+      "isAvailable": true
+    },
+    {
+      "id": "7",
+      "name": "Backpack",
+      "price": 39.99,
+      "description": "A durable backpack for all your adventures",
+      "quantity": 60,
+      "isAvailable": true
+    },
+    {
+      "id": "8",
+      "name": "Laptop",
+      "price": 899.99,
+      "description": "Powerful performance in a portable package",
+      "quantity": 15,
+      "isAvailable": true
+    },
+    {
+      "id": "9",
+      "name": "Sunglasses",
+      "price": 29.99,
+      "description": "Protect your eyes in style",
+      "quantity": 80,
+      "isAvailable": true
+    },
+    {
+      "id": "10",
+      "name": "Camera",
+      "price": 349.99,
+      "description": "Capture life's moments with clarity",
+      "quantity": 25,
+      "isAvailable": true
+    },
+    {
+      "id": "11",
+      "name": "Fidget Spinner",
+      "price": 4.99,
+      "description": "Relieve stress with this addictive toy",
+      "quantity": 150,
+      "isAvailable": true
+    },
+    {
+      "id": "12",
+      "name": "Water Bottle",
+      "price": 14.99,
+      "description": "Stay hydrated on the go",
+      "quantity": 90,
+      "isAvailable": true
+    },
+    {
+      "id": "13",
+      "name": "Desk Lamp",
+      "price": 24.99,
+      "description": "Illuminate your workspace",
+      "quantity": 70,
+      "isAvailable": true
+    },
+    {
+      "id": "15",
+      "name": "Umbrella",
+      "price": 19.99,
+      "description": "Stay dry on rainy days",
+      "quantity": 45,
+      "isAvailable": true
+    },
+    {
+      "id": "16",
+      "name": "Wireless Mouse",
+      "price": 19.99,
+      "description": "Cut the cord and enjoy freedom of movement",
+      "quantity": 55,
+      "isAvailable": true
+    },
+    {
+      "id": "17",
+      "name": "Portable Charger",
+      "price": 29.99,
+      "description": "Never run out of battery on the go",
+      "quantity": 35,
+      "isAvailable": true
+    },
+    {
+      "id": "18",
+      "name": "Fitness Tracker",
+      "price": 79.99,
+      "description": "Track your workouts and achieve your fitness goals",
+      "quantity": 30,
+      "isAvailable": true
+    },
+    {
+      "id": "19",
+      "name": "Coffee Maker",
+      "price": 59.99,
+      "description": "Brew the perfect cup of coffee every time",
+      "quantity": 40,
+      "isAvailable": true
+    },
+    {
+      "id": "20",
+      "name": "Travel Pillow",
+      "price": 14.99,
+      "description": "Rest comfortably on long journeys",
+      "quantity": 65,
+      "isAvailable": true
+    },
+    {
+      "id": "21",
+      "name": "Dumbbell Set",
+      "price": 49.99,
+      "description": "Build strength and muscle with this versatile set",
+      "quantity": 20,
+      "isAvailable": true
+    },
+    {
+      "id": "22",
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "description": "Find balance and peace with yoga",
+      "quantity": 85,
+      "isAvailable": true
+    },
+    {
+      "id": "23",
+      "name": "Cookware Set",
+      "price": 99.99,
+      "description": "Equip your kitchen with high-quality cookware",
+      "quantity": 25,
+      "isAvailable": true
+    },
+    {
+      "id": "22",
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "description": "Find balance and peace with yoga",
+      "quantity": 85,
+      "isAvailable": true
+    },
+    {
+      "id": "23",
+      "name": "Cookware Set",
+      "price": 99.99,
+      "description": "Equip your kitchen with high-quality cookware",
+      "quantity": 25,
+      "isAvailable": true
+    },
+    {
+      "id": "22",
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "description": "Find balance and peace with yoga",
+      "quantity": 85,
+      "isAvailable": true
+    },
+    {
+      "id": "23",
+      "name": "Cookware Set",
+      "price": 99.99,
+      "description": "Equip your kitchen with high-quality cookware",
+      "quantity": 25,
+      "isAvailable": true
+    },
+    {
+      "id": "24",
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "description": "Enjoy your favorite tunes with crystal-clear sound",
+      "quantity": 30,
+      "isAvailable": true
+    },
+    {
+      "id": "25",
+      "name": "Electric Toothbrush",
+      "price": 39.99,
+      "description": "Keep your teeth clean and healthy with ease",
+      "quantity": 50,
+      "isAvailable": true
+    },
+    {
+      "id": "26",
+      "name": "Hiking Boots",
+      "price": 79.99,
+      "description": "Conquer any trail with confidence",
+      "quantity": 15,
+      "isAvailable": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "token": "generated_token_1"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user123",
+      "roles": [
+        "USER"
+      ],
+      "token": "generated_token_2"
+    },
+    {
+      "id": "3",
+      "username": "bob789",
+      "password": "password789",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ],
+      "token": "generated_token_3"
+    }
+  ]
+}

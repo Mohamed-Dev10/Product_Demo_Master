@@ -1,0 +1,23 @@
+<form (ngSubmit)="updateProduct()" #productForm="ngForm" class="col-mb-8">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" id="name" name="name" class="form-control" [(ngModel)]="product.name" required>
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label">Price</label>
+    <input type="number" id="price" name="price" class="form-control" [(ngModel)]="product.price" required>
+  </div>
+  <div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <textarea id="description" name="description" class="form-control" [(ngModel)]="product.description" required></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="quantity" class="form-label">Quantity</label>
+    <input type="number" id="quantity" name="quantity" class="form-control" [(ngModel)]="product.quantity" required>
+  </div>
+  <div class="form-check mb-3">
+    <input type="checkbox" id="isAvailable" name="isAvailable" class="form-check-input" [(ngModel)]="product.isAvailable">
+    <label for="isAvailable" class="form-check-label">Is Available</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Update Product</button>
+</form>
